@@ -1,0 +1,32 @@
+* {
+    font-family: sans-serif;
+}
+
+.header , .footer{
+    background-color: #1F2937;
+    color: white;
+}
+
+.logo-nav-container {
+    display: flex;
+    outline: 1px solid red;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.link-container {
+    display: flex;
+    list-style-type: none;
+}
+
+.link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    
+}
