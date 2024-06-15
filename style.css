@@ -7,9 +7,13 @@
     color: white;
 }
 
+.header {
+    padding: 5px 100px;
+}
+
 .logo-nav-container {
     display: flex;
-    outline: 1px solid red;
+    justify-content: space-between;
 }
 
 .logo-text {
@@ -20,11 +24,13 @@
 .link-container {
     display: flex;
     list-style-type: none;
+    gap: 20px;
 }
 
-.link {
+.link a {
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .footer {
