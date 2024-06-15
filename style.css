@@ -7,13 +7,15 @@
     color: white;
 }
 
-.header {
-    padding: 5px 100px;
+.header, .call-to-action {
+    padding: 100px 100px;
+    padding-top: 5px;
 }
 
 .logo-nav-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .logo-text {
@@ -33,6 +35,50 @@
     text-decoration: none;
 }
 
+.hero {
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+    flex: 1 1 auto;
+}
+
+.hero-container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+.img {
+    width: 100%;
+    background-color: grey;
+    border-radius: 10px;
+}
+
 .footer {
-    
+    text-align: center;
+    font-size: small;
+    padding: 20px 0;
 }
